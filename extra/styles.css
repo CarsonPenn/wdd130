@@ -1,0 +1,22 @@
+img {
+    width:80%;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 1.53em;
+}
+
+p {
+    width:60%;
+
+}
+h1, footer, header, p{
+    text-align: center;
+    margin: 0 auto;
+}
+/* by default all browsers display 16.5 as default */
+
+/* that 1.3em is going to tell the html to make the font 1 and 1/2 times bigger */
+

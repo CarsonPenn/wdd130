@@ -9,26 +9,3 @@
 
 /* the rest of the goodies. */
 
-/* .nav-bar{
-display: flex;
-flex-direction: row;
-align-items:center;
-padding: 0px;
-gap: 16px;
-/* background:  -webkit-linear-gradient (#292f36,  #ff6b6b); */
-background:#292f36  ;
-} */
-
-.logo{
-    height: 50px;
-    padding-left:50px;
-padding-bottom:10px;
-padding-top:10px;
-        
-}
-
-.logo_size {
-    width:50px;
-} 
-
-
