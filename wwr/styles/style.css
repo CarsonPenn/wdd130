@@ -1,3 +1,10 @@
+/* color pallete
+#292f36 dark 
+#4ecdc4 turq
+#FFE66D yellah
+#FF6B6B red
+#396E94 royal 
+
 /* centering styles */
 #content{
     max-width:1600;
@@ -26,26 +33,26 @@ main section{
 }
 
 body{
-
+    background-color: #4ecdc4;
 }
 header{
-
+    background-color: #292f36;
 }
 nav a:hover{
-
+    background-color: #FF6B6B;
 }
 .book, .join{
-
+    background-color:
 }
 .book:hover, .join:hover{
-
+    background-color:#FFE66D;
 }
 #background{
-
+    background-color:#292f36;
 }
 .msg{
-
+    background-color:#FF6B6B;
 }
 footer{
-
+    background-color:#FFE66D;
 }
