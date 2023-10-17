@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inclusive+Sans&family=Mooli&family=Righteous&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inclusive+Sans&family=Mooli&display=swap');
+/* --heading-font: "Righteous";
+ --paragraph-font: Mooli, Helvetica, sans-serif; */
 /* color pallete
 #292f36 dark 
 #4ecdc4 turq
@@ -6,17 +11,42 @@
 #396E94 royal 
 
 /* centering styles */
+header{
+    background-color: #292f36;
+}
+body{
+    background-color: #4ecdc4;
+    font-family: 'Mooli', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
 #content{
     max-width:1600px;
     margin: 0 auto;
 }
-
-nav a {
-    text-align: center;
-    color:#FFFFFF;
-
+h2 {
+    margin: 0;
 }
-#hero{
+.logo {
+    width: 150px;
+    padding-bottom:55px;
+    padding-left: 10px;
+    padding-top: 10px
+}
+#logo_link {
+    padding-top: 5px;
+    /* padding-bottom: 25px; */
+}
+nav a {
+    background-color:#396E94;
+    text-decoration:none;
+    padding: 15px;
+}
+nav a:hover {
+    background-color:#FFE66D;
+}
+#hero {
     display: block;
     margin: 0 auto;
 }
@@ -26,82 +56,78 @@ nav a {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+  
 }
 #hero-img {
     display:block;
     margin: 0 auto;
+    padding-top:px;
 }
 .button-box{
     text-align: center;
 }
-
 main section{
     text-align: center;
 }
-
 #background {
     height: 725px;
     background-color: #292f36;
 }
-
-body{
-    background-color: #4ecdc4;
-}
-header{
-    background-color: #292f36;
-}
-nav a:hover{
-    background-color: #FF6B6B;
-}
-.book, .join{
+/* .book, .join{
     background-color:#292f36;
-}
+    padding: 15px 30px; */
+/* }
 .book:hover, .join:hover{
     background-color:#FFE66D;
-}
+} */
 #background{
     background-color:#292f36;
 }
 .msg{
     background-color:#292f36;
+    line-height: 1.5em;
+    padding: 35px;
 }
-footer{
-    background-color:#FFE66D;
-}
+
 /* forground elemtents */
-nav a {
-    background-color:#396E94;
-    text-decoration:none;
-}
-nav a:hover
-{
-    background-color:#FFE66D;
-}
+
 .home-title{
-    background-color:#292f36;
+    color:#FFE66D;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     background-color:#396E94;
 }
-
-.book, .join{
-    background-color:#292f36;
+.book, .join {
+    color:#FFE66D;
+    background:#292f36;
     text-decoration:none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color:#292f36;
+    background-color:#ffffff;
 }
 .msg h2{
     background-color:#292f36;
     color:#FFE66D;
+    font-family: 'Righteous';
 }
 .msg p{
     background-color:#292f36;
     color:#FFE66D;
+    font-size: 1.5em;
+    padding-bottom: 15px;
 }
 footer{
     background-color:#292f36;
     color:#ffffff;
+    padding: 25px 50px;
 }
 footer a{
     color:#FF6B6B;
@@ -112,13 +138,28 @@ footer a:hover{
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-
+footer{
+    background-color:#FFE66D;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
 footer p a:hover {
     text-decoration: underline;
 }    
-
 footer p {
     font-size: 1.2em;
 }    
-      
+footer .social img   {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card  {
+ margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #FFE66D;
+}
+main section img {
+    box-sizing: border-box;
+}
