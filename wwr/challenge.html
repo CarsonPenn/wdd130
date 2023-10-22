@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Challenge</title>
+    <style>
+        #container {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            width: 75%;
+            text-align: center;
+            /* align-items: center;
+            justify-items: center; */
+
+        }
+
+        img {
+            width:400px;
+            grid-column: 1/2;
+            grid-row: 1/3;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            grid-column: 1/3;
+            grid-row: 1/2;
+            font-size: 100px;
+            z-index: 1;
+            margin: 0 auto;
+        }
+        h2 {
+            color: crimson;
+            font-size: 50px;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            text-align: center;
+            margin:0 auto;
+        }
+
+        #greybox {
+            grid-column: 2/3;
+            grid-row: 1/3;
+            background-color: lightgray
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="images/w06_cherries.png" alt="cherries">
+        <h1>Tart & Sweet</h1>
+        <div id="greybox"></div>
+        <h2>Cherries</h2>
+    </div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
