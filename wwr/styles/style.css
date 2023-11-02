@@ -11,19 +11,36 @@
 #396E94 royal 
 
 /* centering styles */
+
+#content{
+    max-width:1600px;
+    margin: 0 auto;
+}
+nav a {
+    background-color:#396E94;
+    text-decoration:none;
+    padding: 15px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
 header{
     background-color: #292f36;
+    display: grid;
+    grid-template-columns: 150px auto;
+
 }
 body{
-    background-color: #4ecdc4;
+    background-color: white;
     font-family: 'Mooli', Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
-#content{
-    max-width:1600px;
-    margin: 0 auto;
+
 }
 h2 {
     margin: 0;
@@ -36,7 +53,13 @@ h2 {
 }
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
     /* padding-bottom: 25px; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
 }
 nav a {
     background-color:#396E94;
@@ -47,21 +70,32 @@ nav a:hover {
     background-color:#FFE66D;
 }
 #hero {
-    display: block;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 .hero-box {
     display:block;
     margin: 0 auto;
+    grid-column: 1/4;
+    grid-row: 1/3;
 }
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    /* grid-column:2/3;
+    grid-row:1/2; */
   
 }
 #hero-img {
-    display:block;
-    margin: 0 auto;
+    /* display:block;
+    /* margin: 0 auto; */
     padding-top:px;
+    width:100%;
 }
 .button-box{
     text-align: center;
