@@ -185,3 +185,7 @@ nav a:hover {
 .world {
   height: 25%;
 }
+
+#wireframe {
+  height: 50%;
+}
