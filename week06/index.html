@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            max-width: 400px;
+            margin: 0 auto;
+            border: 3px;
+            border-radius: 10px;
+            background-color: white;
+            overflow:hidden;
+        }
+        .black {
+            background:black;
+        }
+        .card img{
+            width:100%;
+        }
+      
+        
+        .stats{
+            background-color: royalblue;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            height:100px;
+            grid-template-rows: 30px 30px;
+            align-content: center;
+
+        }
+        .stat{
+            color:white;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            text-align: center;
+
+        }
+        .stat p:first{
+            font-size: 1.5rem;
+        }
+        .stat p:nth-child(2){
+            font-size: 8rem;
+        }
+    </style>
+</head>
+<body class="black">
+    <section class="card">
+        <img src="images/w09_ice_img.jpg" alt="a bridge">
+        <p class="post-time">3 Weeks Ago</p>
+        <p class="post-heading">Post Three</p>
+        <p class="post-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis ipsam aspernatur explicabo dolorem neque praesentium id recusandae, labore atque incidunt? Id aliquid dolore doloremque possimus aut qui aliquam adipisci tempora quo nihil fuga, cumque praesentium non alias. At cum aperiam molestias! Ab nostrum quaerat unde dolores aperiam voluptate, magnam provident cumque corrupti laudantium iure repellendus, aliquid laborum nihil quasi facere vel aut! Laborum voluptate explicabo, doloribus exercitationem ab quis ad inventore repudiandae dicta animi voluptatum, illum esse. Repudiandae debitis officiis facere numquam iste sit suscipit quos, dolore odio obcaecati perferendis architecto placeat reiciendis. Quasi, fugiat voluptate quo ea amet labore.</p>
+        <div class="stats">
+            <div class="stat">
+                <p>5<sup>m</sup></p>
+                <p>READ</p>
+            </div>
+            <div class="stat"></div>
+                <p>2013</p>
+                <p>VIEWS</p>
+            <div class="stat">
+                <p>15</p>
+                <p>COMMENTS</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
