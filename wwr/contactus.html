@@ -18,59 +18,49 @@
             <a href="site-plan-rafting.html">Site Plan</a>
             <a href="contactus.html">Contact Us</a>
         </nav>
-
-</header>
-<body>
-
-    <div id="feedback"></div>
-    <!-- <div class="info"> -->
+    </header>
+    <main>
+        <div id="feedback"></div>
+        <!-- <div class="info"> -->
         <form action="/my-handling-form-page" method="post">
             <ul>
-              <li>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name" />
-              </li>
-              <li>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" name="user_email" />
-              </li>
-              <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message"></textarea>
-              </li>
-            </ul>
-            <li class="button">
-                <button type="submit">Send your message</button>
-              </li>
-          </form>
-        <!-- </div> -->
-
-        
-    
-
-    </script>
-</body>
-
-
-<footer>
-    <p>White Knuckle &copy; 2023 Carson Smith</p>
-    <p><a href="site-plan-rafting.html">Site Plan</a></p>
-    <p><a href="contactus.html">Contact Us</a></p> 
-    <!-- haven't made contactus page yet -->
-    <!-- beginning of social -->
-    <div class="social">
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon">
-        </a>
-    </div>
-</footer>
-<script>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" />
+                </li>
+                <li>
+                    <label for="mail">Email:</label>
+                    <input type="email" id="mail" name="user_email" />
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>     
+        </form>
+    </main>
+    <footer>
+        <p>White Knuckle &copy; 2023 Carson Smith</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p> 
+        <!-- haven't made contactus page yet -->
+        <!-- beginning of social -->
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script>
     // get the feedback div element so we can do something with it.
     const feedbackElement = document.getElementById('feedback');
     // get the form so we can read what was entered in it.
@@ -86,6 +76,6 @@
         // add a class to move everything down so our message doesn't cover it.
         document.body.classList.toggle('moveDown');
     });
-</script>
+    </script>
 </body>
 </html>
