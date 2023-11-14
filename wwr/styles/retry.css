@@ -346,5 +346,9 @@ form {
 }
 
 .info {
+    background:floralwhite;
+}
+
+.form-edit{
     padding-top: 20px;
 }
