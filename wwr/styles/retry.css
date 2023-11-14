@@ -242,3 +242,20 @@ footer .social img{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+/* tour.html */
+.article-h2 {
+    color:#396E94;
+    font-family: Righteous;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left:35px;
+}
+
+.article-p {
+    font-family: Mooli;
+    padding-left:35px;
+}
+
+.tour-img {
+    float:right;
+}
