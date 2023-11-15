@@ -101,22 +101,7 @@ p.colored {
  background-color: var(--paragraph-background-color);
  color: var(--paragraph-color-on-color);
 }
-nav {
- background-color: var(--nav-background-color);
- line-height: 3em;
- text-align: center;
- font-size: 1.2em;
-}
-nav  {
- list-style-type: none;
- display: flex;
-}
-nav a {
- padding:1em;
- min-width: 120px;
- text-decoration: none;
- padding: 10px;
-}
+
 nav a:link, nav a:visited {
  color: var(--nav-link-color);
 }
@@ -169,4 +154,62 @@ nav a:hover {
 }
 .dark {
  color: white;
+}
+
+nav a {
+  background-color:#396E94;
+  text-decoration:none;
+  padding-top: 10px;
+  padding-bottom:10px;
+  border-radius: 10px;
+  padding:10px;
+  color:#4ecdc4;
+  text-align: center;
+  align-items:center;
+  padding:1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+
+nav {
+  background-color: var(--nav-background-color);
+  line-height: 1em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top:10px;
+  padding-bottom: 10px;
+ }
+
+
+
+ footer {
+  background-color:#ffe66d;
+  color:#292f36;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a{
+  color:#FF6B6B;
+  text-decoration:none;
+}
+footer p {
+  font-size: 1.2em;
+} 
+
+footer p a:hover {
+  text-decoration: underline;
+} 
+
+footer a{
+  color:#FF6B6B;
+  text-decoration:none;
 }
