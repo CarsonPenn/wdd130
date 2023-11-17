@@ -238,40 +238,7 @@ footer .social img{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-/* tour.html */
-.article-h2 {
-    color:#396E94;
-    font-family: Righteous;
-    margin: 0 auto;
-    padding-top: 15px;
-    padding-left:35px;
-}
 
-.article-p {
-    font-family: Mooli;
-    padding-left:35px;
-}
-
-.tour-img {
-    float:right;
-}
-
-.wireframe{
-    width:50%;
-}
-
-    
-form {
-    
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-  }
-  
   ul {
     list-style: none;
     padding: 0;
@@ -350,3 +317,57 @@ form {
 .form-edit{
     padding-top: 20px;
 }
+
+
+
+
+
+/* tour.html */
+.article-h2 {
+    color:#396E94;
+    font-family: Righteous;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left:35px;
+    display:inline;
+}
+h3 {
+    display:inline;
+    color:#396E94;
+    font-family: Righteous;
+}
+
+.article-p {
+    font-family: Mooli;
+    padding-left:35px;
+}
+.wireframe{
+    width:50%;
+}
+.orange{
+    border:3px solid orange;
+}
+.article-form {
+    /* position: relative; */
+    width: 1400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    margin: 0 auto;
+    display:relative;
+}
+.tour-img {
+    height: 200px;
+    display: block;
+    float:right;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+
+
