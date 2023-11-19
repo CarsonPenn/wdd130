@@ -293,7 +293,15 @@ footer .social img{
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
-    margin-left: 0.5em;
+    margin:0 auto;
+    background:#396E94;
+    padding:15px;
+    border-radius: 10px;
+    font-family: Mooli;
+
+  }
+  button:hover{
+    background: #ff6b6b;
   }
   
   #feedback {
@@ -312,10 +320,12 @@ footer .social img{
 
 .info {
     background:floralwhite;
+    /* display:inline; */
 }
 
 .form-edit{
     padding-top: 20px;
+    /* display: inline; */
 }
 
 
