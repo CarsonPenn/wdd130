@@ -1,0 +1,40 @@
+/* color pallete */
+
+#content{
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 100px;   
+}
+
+nav a {
+    background-color:#396E94;
+    text-decoration:none;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 10px;
+    padding:10px;
+    color:#4ecdc4;
+    text-align: center;
+    align-items:center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+nav a:hover{
+    color:#FF6B6B;
+    border:#ff6b6b;
+    border-radius: 2px;
+}
