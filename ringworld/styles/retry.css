@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inclusive+Sans&family=Mooli&family=Righteous&display=swap');
+
+/* --heading-font: "Righteous";
+ --paragraph-font: Mooli, Helvetica, sans-serif; */
+/* color pallete
+#292f36 dark 
+#4ecdc4 turq
+#FFE66D yellah
+#FF6B6B red
+#396E94 royal */
+
+:root {
+--primary-color: #292f36   ;
+--secondary-color: #4ecdc4 ;
+--accent1-color: #ffe66d;
+--accent2-color: #ff6b6b;
+--accent3-color: #396E94;
+}
+
+#content{
+    max-width:1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    background-color:#396E94;
+    text-decoration:none;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-radius: 10px;
+    padding:10px;
+    color:#4ecdc4;
+    text-align: center;
+    align-items:center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+#background {
+    height: 725px;
+    background-color: #292f36;
+    grid-column: 1/11;
+    grid-row:4/9;
+}
+.book, .join {
+    color:#FFE66D;
+    background:#292f36;
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color:#ffe66d;
+    color:#292f36;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    color:#FF6B6B;
+    text-decoration:none;
+}
+footer p {
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+} 
+
+#img-hero {
+    padding-top: 100px;
+    width:100%;
+}
+#hero {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.hero-box {
+    display:block;
+    margin: 0 auto;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+nav a:hover{
+    color:#FF6B6B;
+    border:#ff6b6b;
+    border-radius: 2px;
+}
+.book:hover,.join:hover {
+    background-color:#ff6b6b;
+    color:#FFF;
+}
+
+.msg h2 {
+    color:#292f36;
+    text-align:center;
+}
+h4{
+    color:#FF6B6B;
+    font-family: Mooli;
+    text-align: center;
+    padding-bottom:5px;
+}
+
+#hero-msg h1,#hero-msg div,.button-box,main section {
+    text-align: center;
+}
+
+header{
+    background-color: #292f36;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+body{
+    background-color: white;
+    font-family: 'Mooli', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 100px;   
+}
+
+.home-title{
+    color:#FFE66D;
+    font-family: 'Righteous', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg p{
+    background-color:#292f36;
+    color:#FFE66D;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    font-family:Mooli;
+    line-height: 32px;
+}
+
+.msg{
+    background-color:#292f36;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column:6/10;
+    grid-row:6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+h2 {
+    font-family: Righteous;
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin:200px 0;
+}
+
+.card-img {
+    border: 10px solid #4A4E69;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.main section img {
+    box-sizing: border-box;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.card-img, .mountains {
+    width: 100%
+}
+
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: block;
+    width: 90px;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    padding:0.5rem;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin:0 auto;
+    background:#396E94;
+    padding:15px;
+    border-radius: 10px;
+    font-family: Mooli;
+
+  }
+  button:hover{
+    background: #ff6b6b;
+  }
+  
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+.info {
+    background:floralwhite;
+    /* display:inline; */
+}
+
+.form-edit{
+    padding-top: 20px;
+    /* display: inline; */
+}
+
+
+
+
+
+/* tour.html */
+.article-h2 {
+    color:#396E94;
+    font-family: Righteous;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left:35px;
+    display:inline;
+}
+.article-h2-2 {
+    color:#396E94;
+    font-family: Righteous;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left:400px;
+    display:inline;
+}
+h3 {
+    display:inline;
+    color:#396E94;
+    font-family: Righteous;
+}
+
+.article-p {
+    font-family: Mooli;
+    padding-left:35px;
+}
+
+.wireframe{
+    width:50%;
+}
+/* .orange{ 
+    border:3px solid orange;
+}  */
+.article-form {
+    /* position: relative; */
+    width: 1400px;
+    height: 200px;
+    /* border: 3px solid #73AD21; */
+    margin: 0 auto;
+    display:relative;
+}
+.tour-img {
+    height: 200px;
+    display: block;
+    float:right;
+}
+.tour-img2 {
+    height: 200px;
+    display: block;
+    float:left;
+    padding-left: 35px;
+    padding-right:15px
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+.section{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background:#FCEAC2;
+}
+.section2{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background:#FDF8C3;
+}
+.section3{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background:#FEEA85;
+}
+
