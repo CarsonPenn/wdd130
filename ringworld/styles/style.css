@@ -247,6 +247,7 @@ footer p a:hover {
 .section{
     padding-top: 25px;
     background:white;
+    /* border: 3px solid #73AD21; */
 }
 .article-h2 {
     color:#493076;
@@ -278,31 +279,142 @@ footer p a:hover {
 .section2{
     padding-top: 25px;
     background:rgb(219, 219, 219);
+    /* border: 3px solid #73AD21; */
 }
 .world-img2 {
-    height: 500px;
+    height: 200px;
     display: block;
     float:left;
     padding-left: 0px;
     padding-right:15px;
-    margin-top:-160px;
+    margin-top:-50px;
+    /* border: 3px solid ORANGE; */
+
+    
 }
 .article-h2-2 {
     color:#493076;
     font-family: Dm Serif Display;
     margin: 0 auto;
     padding-top: 15px;
-    padding-left:400px;
+    padding-left:220px;
     display:inline;
 }
 /* seciton 3 */
 .world-imgd {
-    height: 600px;
+    height: 200px;
     display: block;
     float:right;
-    margin-top:-190px;
+    margin: 0 auto;
+    margin-top:-70px;
+    /* border: 3px solid ORANGE; */
+    
 }
 /* end of species section */
-
-
 /* end of world.html */
+/* beginning of contactus.html */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .h2cu {
+    color:white;
+    text-align:center;
+    font-family: DM Serif Display;
+  }
+  form li + li {
+    margin-top: 1em;
+    color:white;
+    padding: 0 10px;
+    
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: block;
+    width: 90px;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 100%;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+    padding:0.5rem;
+  }
+  .list1 {
+    display:inline;
+  }
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    /* padding-left: 90px; same size as the label elements */
+    align-items: center;
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin:15px;
+    background:#493076;
+    border-radius: 10px;
+    font-family: Akatab;
+    font-size:1.5em;
+
+  }
+  button:hover{
+    background: #FFC3C3;
+    color:#493076;
+  }
+  
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+.info {
+    background:#222121;
+    max-width: 800px;
+    /* text-align:center; */
+    margin:0 auto;
+    /* display:inline; */
+}
+
+.form-edit{
+    padding-top: 20px;
+    /* display: inline; */
+}
+/* end of contactus.html */
+/* beginning of about.html */
+/* end of about.html */
