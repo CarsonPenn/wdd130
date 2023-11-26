@@ -417,4 +417,12 @@ ul {
 }
 /* end of contactus.html */
 /* beginning of about.html */
+.p-ab {
+    color:white;
+    font-family: 'Akatab';  
+    margin: 0 auto;
+    padding-left:50px; 
+    padding-right:50px;
+    padding-bottom:10px;
+}
 /* end of about.html */
