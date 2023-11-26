@@ -214,7 +214,7 @@ footer p a:hover {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border:3px solid blue;
+    /* border:3px solid blue; */
     padding-top:25px;
 }
 .text-div{
