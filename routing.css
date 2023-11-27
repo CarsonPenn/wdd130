@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab&family=Carter+One&family=DM+Serif+Display&family=Inclusive+Sans&family=Mooli&family=Righteous&display=swap');
+
 nav a {
-    background-color:#1E0055;
+    background-color:#36c9c6;
     text-decoration:none;
     padding-top: 15px;
     padding-bottom:15px;
@@ -8,8 +10,9 @@ nav a {
     color:white;
     text-align: center;
     align-items:center;
-    font-size: 1.3em;
-    
+    font-size: 1em;
+    font-family: Mooli;
+
 }
 
 nav{
@@ -21,7 +24,7 @@ nav{
 }
 
 nav a:hover{
-    color:#FFC3C3;
+    color:#f4f1bb;
     border:#ff6b6b;
     border-radius: 2px;
     transform: scale(1.1);
