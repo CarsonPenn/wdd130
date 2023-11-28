@@ -370,6 +370,11 @@ h3 {
     font-family: Mooli;
     padding-left:35px;
 }
+ul{
+    font-family: Mooli;
+    padding-left:35px;
+    line-height:1.3em;
+}
 
 .wireframe{
     width:50%;
@@ -387,8 +392,10 @@ h3 {
 }
 .tour-img {
     height: 200px;
-    display: block;
-    float:right;
+    display: inline;
+    grid-column:2;
+    float: right;
+    margin-right:60px;
 }
 .tour-img2 {
     height: 200px;
@@ -406,17 +413,24 @@ form {
 }
 .section{
     padding-top: 45px;
-    padding-bottom: 45px;
-    background:#FCEAC2;
+    padding-bottom: 115px;
+    background:white;
+    /* grid-template-columns: 1fr 1fr; */
 }
 .section2{
     padding-top: 45px;
-    padding-bottom: 45px;
-    background:#FDF8C3;
+    padding-bottom: 150px;
+    background:lightgray;
 }
 .section3{
     padding-top: 45px;
     padding-bottom: 45px;
     background:#FEEA85;
+    border-radius: 3px green; 
+}
+
+.text {
+    grid-column:1/1;
+    /* border: 3px solid green; */
 }
 
