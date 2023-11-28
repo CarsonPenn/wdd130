@@ -25,10 +25,17 @@
     padding: 0 18px;
     background-color: rgb(255, 209, 20);
     max-height: 0;
+    color:black;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    background-color: #fdff9b;
+    opacity: 0.6;
+    background-image:  linear-gradient(30deg, #ffba1c 12%, transparent 12.5%, transparent 87%, #ffba1c 87.5%, #ffba1c), linear-gradient(150deg, #ffba1c 12%, transparent 12.5%, transparent 87%, #ffba1c 87.5%, #ffba1c), linear-gradient(30deg, #ffba1c 12%, transparent 12.5%, transparent 87%, #ffba1c 87.5%, #ffba1c), linear-gradient(150deg, #ffba1c 12%, transparent 12.5%, transparent 87%, #ffba1c 87.5%, #ffba1c), linear-gradient(60deg, #ffba1c77 25%, transparent 25.5%, transparent 75%, #ffba1c77 75%, #ffba1c77), linear-gradient(60deg, #ffba1c77 25%, transparent 25.5%, transparent 75%, #ffba1c77 75%, #ffba1c77);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
   }
 
   h1, h2 {
