@@ -47,7 +47,7 @@ nav{
     grid-column: 1/11;
     grid-row:4/9;
 }
-.book, .join {
+.book{
     color:#FFE66D;
     background:#292f36;
     text-decoration:none;
@@ -56,6 +56,17 @@ nav{
     font-size: 18px;
     margin-top: 50px;
     border-radius: 5px;
+}
+.join {
+    color:#FFE66D;
+    background:#292f36;
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:#396E94;
 }
 
 footer {
