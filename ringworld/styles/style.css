@@ -271,7 +271,7 @@ footer p a:hover {
 }
 .world-img {
     height: 200px;
-    display: block;
+    display: inline;
     float:right;
     margin-top:-45px;
 }
