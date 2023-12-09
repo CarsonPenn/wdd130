@@ -188,7 +188,7 @@ body{
 footer {
     background-color:#493076;
     color:#ffffff;
-    padding: 25px 50px;
+    padding-top: 25px;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -269,7 +269,7 @@ footer p a:hover {
 }
 .article-div {
     /* position: relative; */
-    width: 1400px;
+    /* width: 1400px; */
     height: 200px;
     /* border: 3px solid #73AD21; */
     margin: 0 auto;
@@ -423,7 +423,8 @@ ul {
     /* display: inline; */
 }
 .bottom {
-    align-items: center;
+    text-align: center;
+    margin-top: 50px; /* Adjust as needed */
 }
 .h2ct {
     text-align: center;
@@ -431,17 +432,48 @@ ul {
     font-family: DM Serif Display;
 }
 .bottomimg {
-    margin: 0 auto;
-    float: center;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+
 }
 /* end of contactus.html */
 /* beginning of about.html */
+
+
+.h2ab {
+    color:white;
+    text-align:center;
+    font-family: DM Serif Display;
+}
+
 .p-ab {
     color:white;
     font-family: 'Akatab';  
     margin: 0 auto;
-    padding-left:50px; 
-    padding-right:50px;
+    padding-left:25px;
     padding-bottom:10px;
+    text-indent: 60px; 
 }
+.about-img {
+    max-width:90%;
+    padding:15px;
+    float:right;
+}
+
+#halfnhalf {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr; /* Two columns, adjust as needed */
+    padding:15px;
+    align-items:center;
+
+}
+
+.left {
+    grid-column: 1;
+}
+
+.right {
+    grid-column: 2;
+    padding-top:45px;
+}
+
 /* end of about.html */
