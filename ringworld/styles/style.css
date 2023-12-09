@@ -213,13 +213,13 @@ footer p a:hover {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border:3px solid blue;
+    /* border:3px solid blue; */
     /* padding-top:25px; */
 }
 .text-div{
     display:block;
     grid-column: 1;
-    border:3px solid orange;
+    /* border:3px solid orange; */
     width:600px;
     
 }
@@ -237,7 +237,8 @@ footer p a:hover {
     display:block;
     grid-column:2;
     /* padding:15px; */
-    border:3px solid green;
+    /* border:3px solid green; */
+
 
 }
 .img-top {
@@ -420,6 +421,18 @@ ul {
 .form-edit{
     padding-top: 20px;
     /* display: inline; */
+}
+.bottom {
+    align-items: center;
+}
+.h2ct {
+    text-align: center;
+    color:white;
+    font-family: DM Serif Display;
+}
+.bottomimg {
+    margin: 0 auto;
+    float: center;
 }
 /* end of contactus.html */
 /* beginning of about.html */
