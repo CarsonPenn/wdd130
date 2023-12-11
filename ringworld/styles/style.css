@@ -225,6 +225,13 @@ footer p a:hover {
     width:600px;
     
 }
+.img-top {
+    align-items: center;
+    padding:15px;
+     /* float:right; */
+     width:90%;
+     /* border:3px solid orange; */
+}
 .top-h2 {
     color:white;
     padding-left: 65px;
@@ -243,13 +250,7 @@ footer p a:hover {
 
 
 }
-.img-top {
-   align-items: center;
-   padding:15px;
-    /* float:right; */
-    width:90%;
-    /* border:3px solid orange; */
-}
+
 /* end of top section */
 /* beginning of species section */
 .section{
