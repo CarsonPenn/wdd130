@@ -74,14 +74,14 @@ body{
     color:white;
     margin: 0 auto;
     text-align: center;
-    font-size: 2em;
+    font-size: 5em;
 }
 
 .h2-f {
     color:white;
     margin: 0 auto;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 3.5em;
 }
 #cover {
     margin:0 auto;
@@ -92,20 +92,20 @@ body{
 .box1 {
     background:white;
     color:#F95738;
-    width:1000px;
+    width:500px;
     /* height:100%; */
-    padding:20px;
+    padding:30px;
     margin:0 auto;
-    margin-top:50px;
+    /* margin-top:50px; */
     /* overflow: scroll; */
 }
 
 .h2i {
     margin:100px;
-    margin-top:300px;
+    /* margin-top:300px; */
     color:white;
     text-align: center;
-    font-size: 12em;
+    font-size: 3em;
 }
 /* h2 {
     margin-top:35px;
@@ -114,7 +114,7 @@ body{
 } */
 p {
     color:#ff512f;
-    font-size:4em;
+    font-size:2em;
     text-align: center;
     font-family: Roboto ;
     line-height: 1.3em;
